@@ -50,7 +50,7 @@ class Main {
                 System.out.println("GCD: " + lesser);
                 break;
             }
-            lesser++;
+            lesser--;
         }
     }
 }
