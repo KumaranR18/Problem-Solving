@@ -3,7 +3,7 @@ Longest Substring Without Repeating Characters
 
 Given a string s, find the length of the longest substring without duplicate characters.
 
- 
+
 Example 1:
 
 Input: s = "abcabcbb"
@@ -33,10 +33,13 @@ s consists of English letters, digits, symbols and spaces.
 
 
 
+
 class Solution {
 
     public int lengthOfLongestSubstring(String s) {
+
         HashSet<Character> set = new HashSet<>();
+
         int left = 0;
         int res = 0;
 
@@ -54,4 +57,3 @@ class Solution {
         return res;
     }
 }
-
